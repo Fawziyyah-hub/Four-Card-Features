@@ -1,0 +1,117 @@
+:root{
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+--Very-Dark-Blue: hsl(234, 12%, 34%);
+--Grayish-Blue: hsl(229, 6%, 66%);
+--Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+main{
+    width: 1440px;
+
+}
+
+.container{
+    position: relative;
+    bottom: 40px;
+    background: var(--Very-Light-Gray);
+    height: 45em;
+    padding: 15px;
+    margin:5% ;
+    text-align: center;
+}
+
+.header{
+    font-weight: 200;
+    color: var(--Grayish-Blue);
+}
+
+h1{
+    color: var(--Very-Dark-Blue);
+    line-height: 0.8;
+}
+.green{
+    font-size: 15px;
+    word-spacing: 2px;
+    width: 530px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--Grayish-Blue);
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.box p{
+    width: 20vw;
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+    text-align: left;
+    margin: 10px;
+}
+
+img{
+    float: right;
+    margin: 20px;
+}
+.one{
+    background-color: #fff;
+    position: relative;
+    top: 170px;
+    left: 110px;
+    border-radius: 10px;
+    border-top: 5px solid var(--Cyan);
+    box-shadow:  0 8px 9px 0 rgba(247, 244, 244, 0.904), 0 9px 22px 0 rgba(247, 245, 245, 0.877);
+}
+
+.two{
+    background-color: #fff;
+    position: relative;
+    left: 134px;
+    top: 35px;
+    border-radius: 10px;
+    border-top: 5px solid var(--Red);
+    box-shadow:  0 8px 9px 0 rgba(247, 244, 244, 0.904), 0 9px 22px 0 rgba(247, 245, 245, 0.877);
+}
+
+.three{
+    background-color: #fff;
+    position: relative;
+    left: 159px;
+    top: 171px;
+    border-radius: 10px;
+    border-top: 5px solid var(--Blue);
+    box-shadow:  0 8px 9px 0 rgba(247, 244, 244, 0.904), 0 9px 22px 0 rgba(247, 245, 245, 0.877);
+}
+
+.four{
+    background-color: #fff;
+    position: relative;
+    left: -39.5%;
+    top: 290px;
+    border-top: 5px solid var(--Orange);
+    box-shadow:  0 8px 9px 0 rgba(247, 244, 244, 0.904), 0 9px 22px 0 rgba(247, 245, 245, 0.877);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+    main {
+        width : 1440px;
+    }
+}
